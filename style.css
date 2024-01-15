@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* Color palette https://coolors.co/f4f9f7-a53620-21252b-5c5f63-143642 */
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	width: 20px;
+}
