@@ -38,43 +38,120 @@ a:hover {
 	font-size: 1.1rem;
 }
 
-header {
-	background-color: var(--secondary);
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
-	padding: 10px;
+ul {
+	list-style: none;
 }
 
-header .title {
+h2 {
+	background-color: var(--primary);
+	width: 150px;
+	margin: auto;
+	border-radius: 10px;
+}
+
+.flex {
+	display: flex;
+}
+
+.grid {
+	display: grid;
+}
+.hidden {
+	display: none;
+}
+
+/* Header */
+
+header {
+	background-color: var(--secondary);
+	justify-content: space-between;
+	align-items: flex-end;
+	padding: 20px;
+}
+
+.title {
 	width: 50%;
 }
 
 .title h1 {
 	text-align: left;
+	letter-spacing: 0.5px;
 }
 
-header nav {
+nav {
 	width: 50%;
 	text-align: right;
 }
 
-ul {
-	list-style: none;
-}
+/* Main */
 
-.profile-picture {
-	width: 500px;
-}
-
-img {
-	width: 20px;
+main {
+	display: flex;
+	flex-direction: column;
 }
 
 .section {
-	margin: 2.5rem;
+	margin: 1.5rem;
 }
 
-#skills {
+.section-content {
+	margin: 15px;
+}
+
+/* About Me */
+
+.img-container {
+	padding: 30px;
+	background-color: var(--accent);
+	border-radius: 20px;
+}
+
+.profile img {
+	width: 250px;
+	border-radius: 20px;
+}
+
+.profile p {
+	line-height: 1.6rem;
+	text-align: left;
+	margin: auto 30px;
+}
+
+/* Skills */
+
+.skills ul {
 	display: grid;
+	grid-template-columns: repeat(4, 175px);
+	grid-template-rows: repeat(2, 60px);
+	justify-content: space-around;
+}
+
+.skills li {
+	text-align: left;
+	align-self: center;
+}
+
+.skills img {
+	width: 30px;
+	padding-right: 5px;
+}
+
+/* Education */
+
+/* Projects */
+
+/* Contact */
+
+.contact i {
+	padding-right: 10px;
+}
+.contact p {
+	margin: 10px;
+}
+
+.contact ul {
+	grid-template-columns: repeat(2, 200px);
+	grid-template-rows: repeat(3, 30px);
+	justify-content: center;
+	margin: 15px;
 }
