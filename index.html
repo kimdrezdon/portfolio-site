@@ -9,40 +9,36 @@
 </head>
 
 <body>
-
     <header>
-        <div><img src="./img/profile-picture.png"></div>
-        <div>
+        <div class="title">
             <h1>Kimberly Drezdon</h1>
-            <h2>Full Stack JavaScript Developer</h2>
-            <nav>
-                <a href="#about">About Me</a>
-                <a href="#skills">Skills</a>
-                <a href="#certifications">Certifications</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact Info</a>
-            </nav>
 
         </div>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact Info</a>
+        </nav>
     </header>
 
-
-    <div>
-        <div id="about">
-            <h3>About Me</h3>
-            <p>Hello! My name is Kim Drezdon and I am a Full Stack JavaScript Developer residing in San
-                Marcos, Texas. I am self-motivated and enthusiastic about programming, with a desire to
+    <main>
+        <div id="about" class="section">
+            <h2>About Me</h2>
+            <img class="profile-picture" src="./img/profile-picture.png">
+            <p>Hello! My name is Kimberly Drezdon and I am a developer residing in San Marcos, Texas. I am
+                self-motivated and enthusiastic about programming, with a desire to
                 learn and work as part of a team. I offer strong analytical and problem solving skills, with
                 a professional background in the deadline-driven field of accounting. I am open to
                 opportunities in Austin, San Antonio, or remote.<br><br>I am a graduate of the Full Stack
                 JavaScript Techdegree program at Treehouse. I am currently enrolled in the Full-Stack
                 Engineer Career Path on Codecademy, and am also actively taking courses on Udemy. My hobbies
-                include reading, roller skating, yoga and hiking with my dog. Check out the links to my
-                profiles and certifications!</p>
+                include yoga and hiking. Check out the links to my profiles and certifications!</p>
         </div>
 
-        <div id="skills">
-            <h3>Skills</h3>
+        <div id="skills" class="section">
+            <h2>Skills</h2>
             <ul>
                 <li><img src="./img/javascript-logo.png"><span> JavaScript</span></li>
                 <li><img src="./img/react-logo.png"><span> React</span></li>
@@ -57,30 +53,59 @@
             </ul>
         </div>
 
-        <div id="certifications">
-            <h3>Certifications</h3>
-            <a href="https://www.credential.net/izid9leb" target="_blank">Full Stack JavaScript Techdegree
-                - Treehouse</a>
-            <a href="https://www.freecodecamp.org/certification/kimdrezdon/javascript-algorithms-and-data-structures"
-                target="_blank">JavaScript Algorithms and Data Structures - freeCodeCamp</a>
-            <a href="http://ude.my/UC-39036a5e-1454-4bba-8fd9-bf77ada60d45/" target="_blank">20 Web
-                Projects With Vanilla JavaScript - Udemy</a>
-            <a href="http://ude.my/UC-c4f26fe7-62d2-4960-b474-a4b1a89c1aa2/" target="_blank">React Front to
-                Back - Udemy</a>
+        <div id="education" class="section">
+            <h2>Education</h2>
+            <div id="certifications">
+                <h3>Certifications</h3>
+                <ul>
+                    <a href="https://www.credential.net/izid9leb" target="_blank">Full Stack JavaScript Techdegree
+                        - Treehouse</a>
+                    <a href="https://www.freecodecamp.org/certification/kimdrezdon/javascript-algorithms-and-data-structures"
+                        target="_blank">JavaScript Algorithms and Data Structures - freeCodeCamp</a>
+                    <a href="http://ude.my/UC-39036a5e-1454-4bba-8fd9-bf77ada60d45/" target="_blank">20 Web
+                        Projects With Vanilla JavaScript - Udemy</a>
+                    <a href="http://ude.my/UC-c4f26fe7-62d2-4960-b474-a4b1a89c1aa2/" target="_blank">React Front to
+                        Back - Udemy</a>
+                    <a href="https://www.credly.com/badges/ee9f9866-39c8-4537-a71f-5050ea3f8989/public_url"
+                        target="_blank">IBM Tools for Data Science - Coursera</a>
+                    <a href="https://www.credly.com/badges/d6a83b6c-e73b-4aef-b1ac-d3d451f83f1c/public_url"
+                        target="_blank">IBM Data Science Orientation - Coursera</a>
+                    <a href="https://www.credly.com/badges/ca0317a7-f343-40f6-a43a-23ad104fcce4/public_url"
+                        target="_blank">IBM Data Science Methodology - Coursera</a>
+                    <a href="https://www.codecademy.com/profiles/kdrezdon/certificates/91cf4a1767724a02a20b1eba7eca74ea"
+                        target="_blank">Learn Navigation Design Course - Codecademy</a>
+                    <a href="https://www.codecademy.com/profiles/kdrezdon/certificates/5cadfefe5f1de806e9704577"
+                        target="_blank">Build a Website with HTML, CSS, and GitHub Pages Skill Path - Codecademy</a>
+                    <a href="https://www.codecademy.com/profiles/kdrezdon/certificates/f4276e8c08a3ba174ef0147deb0c3013"
+                        target="_blank">Learn JavaScript Unit Testing Course - Codecademy</a>
+                    <a href="https://www.codecademy.com/profiles/kdrezdon/certificates/3a62023b0054dc793edc0adecd715fd7"
+                        target="_blank">Learn CSS: Responsive Design Course - Codecademy</a>
+                </ul>
+
+
+            </div>
+            <div id="in-progress">
+                <h3>Coursework In-Progress</h3>
+                <p>Udemy: "The Ultimate React Course 2024: React, Redux & More" by Jonas Schmedtmann</p>
+                <p>Codecademy: Full-Stack Engineer Career Path</p>
+                <p>Udemy: "50 Projects in 50 Days - HTML, CSS & JavaScript" by Brad Traversy/Florin Pop</p>
+                <p>Udemy: "70+ JavaScript Challenges: Data Structures & Algorithms" by Brad Traversy</p>
+            </div>
         </div>
 
 
 
 
 
-        <div id="projects">
 
-            <h3>Projects</h3>
+        <div id="projects" class="section">
+
+            <h2>Projects</h2>
 
             <div class="modal hidden">
                 <img src="/static/img/project-10-landscape-1.png" />
                 <div>
-                    <h1>Full Stack Course Database</h1>
+                    <h4>Full Stack Course Database</h4>
                     <p class="text-light">This full stack application uses React and a REST API built using
                         Sequelize,
                         Express, Node.js and JavaScript to provide a way for users to administer a school
@@ -98,7 +123,7 @@
                         updating or creating a course, as well as during user sign up.</p>
                 </div>
                 <div>
-                    <h6>Technologies</h6>
+                    <h5>Technologies</h5>
                     <ul>
                         <li>JavaScript</li>
                         <li>HTML</li>
@@ -117,38 +142,38 @@
             </div>
 
             <div>
-                <div><a href="#"><img src="./img/project-10-square.png">
-                        <h5>Full Stack Course Database</h5>
+                <div class="project"><a href="#"><img src="./img/project-10-square.png">
+                        <h4>Full Stack Course Database</h4>
                     </a></div>
-                <div><a href="#"><img src="./img/project-8-square.png">
-                        <h5>SQL Library Manager</h5>
+                <div class="project"><a href="#"><img src="./img/project-8-square.png">
+                        <h4>SQL Library Manager</h4>
                     </a></div>
-                <div><a href="#"><img src="./img/project-7-square.png">
-                        <h5>React Photo Gallery</h5>
+                <div class="project"><a href="#"><img src="./img/project-7-square.png">
+                        <h4>React Photo Gallery</h4>
                     </a></div>
-                <div><a href="#"><img src="./img/project-6-square.png">
-                        <h5>Portfolio</h5>
+                <div class="project"><a href="#"><img src="./img/project-6-square.png">
+                        <h4>Portfolio</h4>
                     </a></div>
-                <div><a href="#"><img src="./img/project-5-square.png">
-                        <h5>Employee Directory</h5>
+                <div class="project"><a href="#"><img src="./img/project-4-square.png">
+                        <h4>Employee Directory</h4>
                     </a></div>
-                <div><a href="#"><img src="./img/project-4-square.png">
-                        <h5>Phrase Hunter Game</h5>
+                <div class="project"><a href="#"><img src="./img/project-4-square.png">
+                        <h4>Phrase Hunter Game</h4>
                     </a></div>
-                <div><a href="#"><img src="./img/project-3-square.png">
-                        <h5>Interactive Form</h5>
+                <div class="project"><a href="#"><img src="./img/project-3-square.png">
+                        <h4>Interactive Form</h4>
                     </a></div>
-                <div><a href="#"><img src="./img/project-2-square.png">
-                        <h5>List Pagination and Filtering</h5>
+                <div class="project"><a href="#"><img src="./img/project-2-square.png">
+                        <h4>List Pagination and Filtering</h4>
                     </a></div>
-                <div><a href="#"><img src="./img/project-1-square.png">
-                        <h5>Random Quote Generator</h5>
+                <div class="project"><a href="#"><img src="./img/project-1-square.png">
+                        <h4>Random Quote Generator</h4>
                     </a></div>
             </div>
         </div>
 
-        <div id="contact">
-            <h3>Contact Info</h3>
+        <div id="contact" class="section">
+            <h2>Contact Info</h2>
             <ul>
                 <li>email@gmail.com</li>
                 <li>San Marcos, TX</li>
@@ -169,7 +194,7 @@
                             class="fas fa-laptop-code"></i> Codecademy</a></li>
             </ul>
         </div>
-    </div>
+    </main>
 
     <script src="/static/js/scripts.js"></script>
     <script src="https://kit.fontawesome.com/c10ae0d023.js" crossorigin="anonymous"></script>
